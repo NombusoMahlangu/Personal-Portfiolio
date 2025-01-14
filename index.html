@@ -3,124 +3,545 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Merienda&family=Montserrat:wght@100;400;900&family=Raleway&family=Roboto&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-    <link href="style.css" rel="stylesheet">
-    <title>Leandra Mahlangu</title>
-</head>
-<body >
-        <div class="col-sm-12 col-md-12 col-lg-12" >
-    <div class="hero-image" id="home">
-        <nav class="navbar">
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-           <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#intro">ME</a></li> 
-                <li><a href="#resume">RESUME</a></li>
-                <li><a href="#">MY WORK</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
-       <div class="hero-text">
-            <p style="font-weight:bold; font-family: 'Sacramento', cursive;font-size: 5.625rem;" >
-                 I'm Leandra.</p>
-            <p style="font-family: 'Montserrat', sans-serif; font-size:1.5rem; padding-left:55px; padding-bottom:50px; ">
-              I am a <span style="text-decoration: underline">Web Developer</span>.</p>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/b54fd91ddf.js" crossorigin="anonymous"></script>
+    <title></title>
+    </head>
+    <body style="background-image: url('images/abstract-gradient-neon-lights.jpg'); background-size: cover; background-position: center;font-family: 'Courier New', monospace;">
+    <!-- header -->
+    <div style="text-align:  center; margin: 100px;">
+        <div class="col-lg-12">
+            <img 
+                style="width: 100%; box-shadow: 0 0 16px rgba(254, 1, 154, 0.7);" 
+                src="images/Pink Minimalist 30-Day Challenge Banner (1).svg" 
+                alt="Hero Image">
         </div>
     </div>
-          
-    <div id="intro">
-        <h1 style="padding-top: 45px; font-style:italic;">JUST LEANDRA.</h1>
-        <p style="padding-top:45px; padding-left:25%;padding-right:25%; padding-bottom:60px;">
-                                      I am Leandra Nombuso Mahlangu, a web developer.
-                                      I am 24 years old, born and raised in Siyabuswa Mpumalanga. 
-                                      Studied Information Technology majoring with Software Development at
-                                      Tshwane University of Technology.It's been two years since I developed
-                                      interest in Web Design and I can confidently say my skills have really improved throughout
-                                      and also looking forward to upgrade to new skills.
-                                      I'm passionate about everything that goes into making websites work well and look beautiful.
-             </p>
+    <!-- end of header -->
+
+
+    <!-- about -->
+    <div class="col-lg-12">
+        <section class="about-code">
+            <div class="code-window">
+                <div class="window-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <!-- <p>AboutMe.blade.php</p> -->
+                </div>
+
+            <div class="code-content">
+                <pre><code>
+/* About Me */
+const aboutMe = {
+"The main goal of this portfolio is to showcase my skills, projects, and passion for web development. 
+It reflects my journey from the early stages of learning basic HTML and CSS to mastering modern frameworks and technologies.
+Throughout this process, I’ve gained hands-on experience in designing user-friendly interfaces, building responsive websites, and developing dynamic web applications.
+Each project featured here represents a step forward in my growth as a developer, highlighting my dedication to continuously improving my craft and staying updated with industry trends.
+This portfolio is not just a collection of work, but a reflection of my commitment to creating innovative solutions and delivering high-quality results in the ever-evolving field of web development."
+};
+                </code></pre>
+            </div>
+            </div>
+        </section>
     </div>
+    <!-- end of about -->
 
-    <div id="resume">
-        <h1 style="font-style: italic;">MY RESUME</h1>
-       
-        <h4>EDUCATION</h4>
-        <p>National Diploma in Information Technology | Tshwane University of Technology</p>
-        <p>National Senior Certificate (Grade 12) | Kwandebele Science School</p>
-        <hr>
-        <h4>SKILLS</h4>
-        <p>WEB DEVELOPMENT: <span><ul>
-                                    <li>PHP, JavaScript, Operations on databases using SQL&PL</li>
-                                    <li>HTML5, bootstrap, CSS</li>
-                                    <li>Laravel framework & electron.js</li>
-                                    <li>Git</li>
-                                 </ul></span></p>
-        <br>
-        <p>MICROSOFT OFFICE: <span><ul>
-                                    <li>Word, Excel, PowerPoint, Outlook, OneNote, Access, OneDrive,</li>
-                                    <li> Skype for Business, Microsoft Teams and Power BI</li>
-                                  </ul></span></p>
-        <br>
-        <p>OPERATING SYSTEMS: <span><ul>
-                                     <li>Windows OS</li>
-                                     <li>Linux</li>
-                                     <li>iOS</li>
-                                   </ul></span></p>
-        <br>
-        <p>TELECOMMUNCATION: <span><ul>
-                                      <li>Telecommunication product and services.</li>
-                                      <li>Basic equipment and component used in Telecommunication environment.</li>
-                                      <li>Principles of the internet and the World-Wide.</li>
-                                      <li>Relevent current occupaional  health and safety legislation.</li>
-                                      <li>Customer support on Telecommunication services.</li>
-                                      <li>Perform acceptance and commission on network element. </li>
-                                      <li>Prepare site for installation.</li>
-                                      <li>Use spreadsheet package to produce and manage business document.</li>
-                                   </ul></span></p>
-        <br>
-        <p>CRITICAL THINKING AND PROBLEM-SOLVING: <span><ul>
-                                                           <li>Engaged in hackathons given limited time to solve various cyber security problems.</li>
-                                                           <li>Engaged in individual and team work activities to solve real-life problems using the internet.</li>
-                                                       </ul></span></p>
-        <hr>
-        <h4>EXPERIENCE</h4>
-        <p>WEB DEVELOPMENT | GEEKULCHA August 2022 - Present :<span><p>
-                                                       Working with pure HTML, PHP, SQL, JavaScript. Laravel framework and electron.js. Git. Data visualization for analysing data.
-                                                      </p></span></p>
-        <p>WEB DEVELOPMENT | REDWOOD GROUP June 2021-October 2021 :<span><p>
-                                                       Worked and got introduced to basic HTML and CSS
-                                                      </p></span></p>
-        <p>TELECOMMUNICATION | CIPAL TELECOMMUNICATION November 2021 - February 2022 :<span><p>
-                                                          Telecommunication product and services.
-                                                          Basic equipment and component used in Telecommunication environment.
-                                                          Principles of the internet and the World-Wide.
-                                                          Relevent current occupaional  health and safety legislation.
-                                                          Customer support on Telecommunication services.
-                                                          Perform acceptance and commission on network element.
-                                                          Prepare site for installation.
-                                                          Use spreadsheet package to produce and manage business document.
-                                                      </p></span></p>
-    <br>
-    <hr>
-    <br>
-    <h6>References available on request.</h6>
-    <br>
 
+
+
+<!-- education and skills -->
+        <div class="col-lg-12">
+        <section class="about-code">
+            <div class="code-window">
+                <div class="window-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <!-- <p>AboutMe.blade.php</p> -->
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 education">
+                        <h4>My Education</h4><br><br>
+                        2017-2021<br>
+                        <span class="course">Diploma in Information Technology</span><br>
+                        Majored in Software Development<br>
+                        Tshwane Univerisity of Technology
+                        <br><br><br>
+
+                        2021-NOW<br>
+                        <span class="course">Web Development</span><br>
+                        Self-Taught by following latest tech in the industry
+                    </div>
+                    <div class="col-lg-6 skills">
+                        <h4>My Skills</h4>
+                        <br><br>
+                        <div class="skill-bar">
+                    <div class="skill-title">HTML</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 95%;">95%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-title">CSS</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-title">Laravel/PHP</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-title">JavaScript</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-title">Git</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-title">Wordpress</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%;">70%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-title">Electron.js</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 50%;">50%</div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
+    <!-- end of education and skills -->
 
-    <footer>
-        <h1>Get In Touch</h1>
-        <p style="font-style: italic;">So We Can Code !</p>
-        <p style="padding-bottom: 35px;">Email : nombusomahlangu52@gmail.com     <br>Call : 0694210454</p>
-    </footer>
+
+
+    <!-- projects -->
+    <div class="col-lg-12">
+        <section class="about-code">
+            <div class="code-window">
+                <div class="window-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+
+                <div>
+                    <a href="projects"><img style="width:100%;border-radius:15px" src="images/Neon Pink Electro Black Friday Sale Animated Canvas Banner.gif" alt="Project Showcase" ></a>
+                </div>
+
+                <section class="shape-section">
+                    <div class="row">
+                        <div class="col-lg-2"><br><br><br>
+                        <a class="item" href="https://government.co.za/"> <div class="container diamond-shape">
+                             <div class="item-count">
+                                    Government Directory of South Africa
+                                </div><!-- .item-count -->
+                            </div></a>
+                            <div class="declare">
+                                <br><br>
+                            <button type="submit" class="btn btn-block"><a class="declare-link" href="">Declaration of Authenticity</a></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-2"><br><br><br>
+                        <a class="item" href="https://medicaldirectory.co.za/"><div class="container diamond-shape">
+                                <div class="item-count">Medical Directory</div><!-- .item-count -->
+                            </div></a>
+                            <div class="declare">
+                                <br><br>
+                            <button type="submit" class="btn btn-block"><a class="declare-link" href="">Declaration of Authenticity</a></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-2"><br><br><br>
+                        <a class="item" href="https://sadcgov.com/"><div class="container diamond-shape">
+                                <div class="item-count">SADC Government</div><!-- .item-count -->
+                            </div></a>
+                            <div class="declare">
+                                <br><br>
+                            <button type="submit" class="btn btn-block"><a class="declare-link" href="">Declaration of Authenticity</a></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-2"><br><br><br>
+                        <a class="item" href=""><div class="container diamond-shape">
+                                <div class="item-count">Dotcom Africa</div><!-- .item-count -->
+                            </div></a>
+                            <div class="declare">
+                                <br><br>
+                            <button type="submit" class="btn btn-block"><a class="declare-link" href="">Declaration of Authenticity</a></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-2"><br><br><br>
+                        <a class="item" href="https://www.dotcomafrica.com/"><div class="container diamond-shape">
+                                <div class="item-count">H2Origin</div><!-- .item-count -->
+                            </div></a>
+                            <div class="declare">
+                                <br><br>
+                            <button type="submit" class="btn btn-block"><a class="declare-link" href="">Declaration of Authenticity</a></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-2"><br><br><br>
+                        <a class="item" href="https://government.co.bw/"><div class="container diamond-shape">
+                                <div class="item-count">Government Directory of Botswana</div><!-- .item-count -->
+                            </div></a>
+                            <div class="declare">
+                                <br><br>
+                            <button type="submit" class="btn btn-block"><a class="declare-link" href="">Declaration of Authenticity</a></button>
+                            </div>
+                        </div>   
+                    </div>
+
+
+
+
+                    <div class="row">
+                        <div class="col-lg-2">                        <br><br><br>
+                        <a class="item" href="https://government.co.zm/"> <div class="container diamond-shape">
+                             <div class="item-count">
+                                    Government Directory of Zambia
+                                </div><!-- .item-count -->
+                            </div></a>
+                            <div class="declare">
+                                <br><br>
+                            <button type="submit" class="btn btn-block"><a class="declare-link" href="">Declaration of Authenticity</a></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-2"><br><br><br>
+                        <a class="item" href="https://government.com.na/"><div class="container diamond-shape">
+                                <div class="item-count">Government Directory of Namibia</div><!-- .item-count -->
+                            </div></a>
+                            <div class="declare">
+                                <br><br>
+                            <button type="submit" class="btn btn-block"><a class="declare-link" href="">Declaration of Authenticity</a></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-2"><br><br><br>
+                        <a class="item" href="https://eswatinigov.net/"><div class="container diamond-shape">
+                                <div class="item-count">Government Directory of eSwatini</div><!-- .item-count -->
+                            </div></a>
+                            <div class="declare">
+                                <br><br>
+                            <button type="submit" class="btn btn-block"><a class="declare-link" href="">Declaration of Authenticity</a></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-2"><br><br><br>
+                        <a class="item" href="https://constructionsite.co.za/"><div class="container diamond-shape">
+                                <div class="item-count">Construction Site</div><!-- .item-count -->
+                            </div></a>
+                            <div class="declare">
+                                <br><br>
+                            <button type="submit" class="btn btn-block"><a class="declare-link" href="">Declaration of Authenticity</a></button>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+        
+    <!-- end of projects -->
+
+    <!-- footer -->
+    <div class="col-lg-12">
+        <section class="footer-section">
+        <div class="row">
+            <div class="col-lg-7 socials">
+                <h5>I hope you enjoyed witnessing my growth on the internet!</h5>
+                <br><br><br>
+                <p>leandramahlangu@gmail.com</p>
+                <div class="icons">
+                <a href="tel:"><i class="fa-solid fa-phone"></i></a>
+                <a href="https://www.instagram.com/leandra_mahlangu/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://za.linkedin.com/in/leandra-mahlangu-50132311b"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-5 form">
+            <h5>Let's have a chat!</h5>
+            <br><br>
+            <form class="mb-4" action="/submit" method="POST">
+    @csrf
+    <div class="form-group">
+        <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+        <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+        <textarea class="form-control" name="message" rows="4" placeholder="Your Message" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-block">SEND</button>
+</form>
+
+            </div>
         </div>
-</body>
-</html>
+        </section>
+    </div>
+    <!-- end of footer -->
+
+
+
+
+    <style>
+.declare-link {
+    display: inline-block;
+    transition: color 0.3s ease;
+    color: #fe019a;
+}
+
+.declare-link:hover {
+    text-decoration: none;
+    color: #fe019a;
+    animation: bounce 0.5s ease;
+}
+
+/* Keyframes for bouncing effect */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+        .declare{
+         text-align: center;
+        }
+
+        .shape-section {
+        margin: 30px 30px;
+        padding: 40px 0;
+        }
+        .diamond-shape {
+        background: #d3bcb1;
+        height: 100px;
+        text-align: center;
+        transform:rotate(45deg);
+        width: 100px;
+        box-shadow: 0 0 16px rgba(254, 1, 154, 0.7);
+        }
+        .item-count {
+        color: #333;
+        display: table-cell;
+        height: 100px;
+        transform: rotate(-45deg);
+        vertical-align: middle;
+            width:100px;
+            font-weight: bold;
+            font-size: 11px;
+        }
+
+        .item-count {
+            text-decoration: none;
+    transition: color 0.3s ease;
+
+}
+
+.item-count:hover {
+    text-decoration: none;
+    color: #fe019a;
+    animation: bounce 0.5s ease;
+}
+
+.item:hover {
+    text-decoration: none;
+}
+
+/* Keyframes for bouncing effect */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+        /* Skills section */
+        .skills {
+            padding: 50px ;
+            color: #ffe4e1;
+        }
+
+        .skill-bar {
+            margin-bottom: 5px;
+        }
+
+        .skill-title {
+            font-size: 15px;
+            color: #ffe4e1;
+        }
+
+        .progress {
+            height: 25px;
+            background-color: #d3bcb1;
+            border-radius: 50px;
+        }
+
+        .progress-bar {
+            background-color: #fe019a; /* Neon pink progress bar */
+            height: 100%;
+            border-radius: 50px;
+            text-align: center;
+            font-weight: bold;
+            transition: width 1s ease-in-out;
+        }
+
+        .course{
+            font-size: 19px;
+            color:#fe019a;
+            font-weight: bold;
+        }
+
+        .education h4{
+            font-weight: bold;
+        }
+
+        .skills h4{
+            font-weight: bold;
+        }
+
+        .education, .skills{
+            padding: 60px;
+
+        }
+
+        .icons{
+            text-align:center;
+        }
+
+        i{
+            color:#fe019a;
+            font-size: 30px;
+            padding:50px;
+        
+        }
+        .socials p{
+            text-align: center;
+            font-size: 16px;
+        }
+        .socials h5{
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .socials{
+            padding:50px;            
+        }
+        .form{
+            padding:50px;
+            font-size: 16px;
+        }
+
+        .form input{
+            background-color: #d3bcb1 !important;
+            border: none !important;
+        }
+
+        .form textarea{
+            background-color: #d3bcb1 !important;
+            border: none !important;
+        }
+        .btn{
+            background-color: transparent;
+            border:1px solid #fe019a;
+            color:#fe019a;
+        }
+
+        .footer-section .row {
+            background-color: #black;
+            color: #f8d5e5;
+            border-radius: 10px;
+            margin: 0 auto;
+            box-shadow: 0 0 16px rgba(254, 1, 154, 0.7);
+            
+
+        }
+
+        .footer-section {
+            padding: 0px 100px 100px 100px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .about-code {
+            padding: 0px 100px 100px 100px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .code-window {
+            background-color: #black;
+            color: #f8d5e5;
+            border-radius: 10px;
+            box-shadow: 0 0 16px rgba(254, 1, 154, 0.7);
+            font-family: 'Courier New', monospace;
+
+        }
+
+        .window-header {
+            display: flex;
+            padding: 10px;
+            background-color: #fe019a; /* Neon pink */
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            border-radius: 50%;
+            margin-right: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .red { background-color: #ff5f56; }
+        .yellow { background-color: #ffbd2e; }
+        .green { background-color: #27c93f; }
+
+        .code-content {
+            padding: 20px;
+            font-size: 16px;
+            line-height: 1.8;
+            font-family: 'Courier New', monospace;
+        }
+
+        pre {
+            margin: 0;
+            white-space: pre-wrap;
+            color: #f8d5e5;
+        }
+
+        .b{
+            border:1px solid red;
+        }
+
+        .education{
+            font-size: 15px;
+        }
+
+    </style>
+
+    </body>
+    </html>
+
+        <!-- <div class="container b">
+        <div class="row">
+            <div class="col-lg-12">dgfdf</div>
+        </div>
+    </div> -->
